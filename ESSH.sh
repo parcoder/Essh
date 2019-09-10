@@ -1,7 +1,7 @@
 #!/bin/bash
- 
+
 # THIS TOOL CREATE TUNNEL USING SSH AND SERVEO
-# BY PARCODER - parcoder83@gmail.com
+# BY PARCODER - parcoderdev@gmail.com 2019
 
 R='\033[1;31m'
 G='\033[1;32m'
@@ -10,19 +10,19 @@ C='\033[1;36m'
 
 function banner {
 
-printf "$C"	
+printf "$C"
 echo "
   ____	           _____          _
- |  __ \          / ____|        | |          
- | |__) |_ _ _ __| |     ___   __| | ___ _ __ 
+ |  __ \          / ____|        | |
+ | |__) |_ _ _ __| |     ___   __| | ___ _ __
  |  ___/ _  | -__| |    / _ \ / _  |/ _ \ -__|
- | |  | (_| | |  | |___| (_) | (_| |  __/ |   
- |_|   \__,_|_|   \_____\___/ \__,_|\___|_|   
+ | |  | (_| | |  | |___| (_) | (_| |  __/ |
+ |_|   \__,_|_|   \_____\___/ \__,_|\___|_|
 "
-printf "$Y" 
+printf "$Y"
 echo "
                 EASY SSH TOOL
-" 
+"
 
 }
 
@@ -34,7 +34,7 @@ function start {
 	read sport
 
 	clear
-	banner	
+	banner
 	printf "$R"
        	printf "[Set]Local Host>> "
 	read lhost
